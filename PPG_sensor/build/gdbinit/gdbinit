@@ -1,0 +1,2 @@
+source E:/PCG-PPG-ECG_Code/PPG_sensor/build/gdbinit/symbols
+source E:/PCG-PPG-ECG_Code/PPG_sensor/build/gdbinit/connect

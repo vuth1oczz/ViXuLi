@@ -1,0 +1,6 @@
+{
+    "idf.pythonInstallPath": "E:\\Espressif\\tools\\idf-python\\3.11.2\\python.exe",
+    "files.associations": {
+        "max30102.h": "c"
+    }
+}

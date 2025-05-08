@@ -1,0 +1,2 @@
+source E:/PCG-PPG-ECG_Code/PCG_sensor/build/bootloader/gdbinit/symbols
+source E:/PCG-PPG-ECG_Code/PCG_sensor/build/bootloader/gdbinit/connect

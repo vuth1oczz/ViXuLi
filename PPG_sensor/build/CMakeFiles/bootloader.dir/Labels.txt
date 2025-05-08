@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+E:/PCG-PPG-ECG_Code/PPG_sensor/build/CMakeFiles/bootloader
+E:/PCG-PPG-ECG_Code/PPG_sensor/build/CMakeFiles/bootloader.rule
+E:/PCG-PPG-ECG_Code/PPG_sensor/build/CMakeFiles/bootloader-complete.rule
+E:/PCG-PPG-ECG_Code/PPG_sensor/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+E:/PCG-PPG-ECG_Code/PPG_sensor/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+E:/PCG-PPG-ECG_Code/PPG_sensor/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+E:/PCG-PPG-ECG_Code/PPG_sensor/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+E:/PCG-PPG-ECG_Code/PPG_sensor/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+E:/PCG-PPG-ECG_Code/PPG_sensor/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+E:/PCG-PPG-ECG_Code/PPG_sensor/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule

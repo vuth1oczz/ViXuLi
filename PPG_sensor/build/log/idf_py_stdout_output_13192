@@ -1,0 +1,49 @@
+-- IDF_TARGET is not set, guessed 'esp32' from sdkconfig 'E:/PCG-PPG-ECG_Code/PPG_sensor/sdkconfig'
+-- Found Git: E:/Espressif/tools/idf-git/2.44.0/cmd/git.exe (found version "2.44.0.windows.1")
+-- ccache will be used for faster recompilation
+-- The C compiler identification is GNU 13.2.0
+-- The CXX compiler identification is GNU 13.2.0
+-- The ASM compiler identification is GNU
+-- Found assembler: E:/Espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc.exe
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: E:/Espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: E:/Espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/bin/xtensa-esp32-elf-g++.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- git rev-parse returned 'fatal: not a git repository (or any of the parent directories): .git'
+-- Could not use 'git describe' to determine PROJECT_VER.
+-- Building ESP-IDF components for target esp32
+-- Project sdkconfig file E:/PCG-PPG-ECG_Code/PPG_sensor/sdkconfig
+-- Compiler supported targets: xtensa-esp-elf
+-- Looking for sys/types.h
+-- Looking for sys/types.h - found
+-- Looking for stdint.h
+-- Looking for stdint.h - found
+-- Looking for stddef.h
+-- Looking for stddef.h - found
+-- Check size of time_t
+-- Check size of time_t - done
+-- Found Python3: E:/Espressif/python_env/idf5.2_py3.11_env/Scripts/python.exe (found version "3.11.2") found components: Interpreter
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE
+-- Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS
+-- Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS - Success
+-- App "PPG_sensor" version: 1
+-- Adding linker script E:/PCG-PPG-ECG_Code/PPG_sensor/build/esp-idf/esp_system/ld/memory.ld
+-- Adding linker script E:/PCG-PPG-ECG_Code/PPG_sensor/build/esp-idf/esp_system/ld/sections.ld.in
+-- Adding linker script E:/Espressif/frameworks/esp-idf-v5.2.5/components/esp_rom/esp32/ld/esp32.rom.ld
+-- Adding linker script E:/Espressif/frameworks/esp-idf-v5.2.5/components/esp_rom/esp32/ld/esp32.rom.api.ld
+-- Adding linker script E:/Espressif/frameworks/esp-idf-v5.2.5/components/esp_rom/esp32/ld/esp32.rom.libgcc.ld
+-- Adding linker script E:/Espressif/frameworks/esp-idf-v5.2.5/components/esp_rom/esp32/ld/esp32.rom.newlib-data.ld
+-- Adding linker script E:/Espressif/frameworks/esp-idf-v5.2.5/components/esp_rom/esp32/ld/esp32.rom.syscalls.ld
+-- Adding linker script E:/Espressif/frameworks/esp-idf-v5.2.5/components/esp_rom/esp32/ld/esp32.rom.newlib-funcs.ld
+-- Adding linker script E:/Espressif/frameworks/esp-idf-v5.2.5/components/soc/esp32/ld/esp32.peripherals.ld
+-- Components: FileManager MAX30102 app_trace app_update bootloader bootloader_support bt cmock console cxx driver efuse esp-tls esp_adc esp_app_format esp_bootloader_format esp_coex esp_common esp_eth esp_event esp_gdbstub esp_hid esp_http_client esp_http_server esp_https_ota esp_https_server esp_hw_support esp_idf_lib_helpers esp_lcd esp_local_ctrl esp_mm esp_netif esp_netif_stack esp_partition esp_phy esp_pm esp_psram esp_ringbuf esp_rom esp_system esp_timer esp_wifi espcoredump esptool_py fatfs freertos hal heap http_parser i2cdev idf_test ieee802154 json log lwip main mbedtls mqtt newlib nvs_flash nvs_sec_provider openthread partition_table perfmon protobuf-c protocomm pthread sdmmc soc spi_flash spiffs tcp_transport ulp unity usb vfs wear_levelling wifi_provisioning wpa_supplicant xtensa
+-- Component paths: E:/PCG-PPG-ECG_Code/PPG_sensor/component/FileManager E:/PCG-PPG-ECG_Code/PPG_sensor/component/MAX30102 E:/Espressif/frameworks/esp-idf-v5.2.5/components/app_trace E:/Espressif/frameworks/esp-idf-v5.2.5/components/app_update E:/Espressif/frameworks/esp-idf-v5.2.5/components/bootloader E:/Espressif/frameworks/esp-idf-v5.2.5/components/bootloader_support E:/Espressif/frameworks/esp-idf-v5.2.5/components/bt E:/Espressif/frameworks/esp-idf-v5.2.5/components/cmock E:/Espressif/frameworks/esp-idf-v5.2.5/components/console E:/Espressif/frameworks/esp-idf-v5.2.5/components/cxx E:/Espressif/frameworks/esp-idf-v5.2.5/components/driver E:/Espressif/frameworks/esp-idf-v5.2.5/components/efuse E:/Espressif/frameworks/esp-idf-v5.2.5/components/esp-tls E:/Espressif/frameworks/esp-idf-v5.2.5/components/esp_adc E:/Espressif/frameworks/esp-idf-v5.2.5/components/esp_app_format E:/Espressif/frameworks/esp-idf-v5.2.5/components/esp_bootloader_format E:/Espressif/frameworks/esp-idf-v5.2.5/components/esp_coex E:/Espressif/frameworks/esp-idf-v5.2.5/components/esp_common E:/Espressif/frameworks/esp-idf-v5.2.5/components/esp_eth E:/Espressif/frameworks/esp-idf-v5.2.5/components/esp_event E:/Espressif/frameworks/esp-idf-v5.2.5/components/esp_gdbstub E:/Espressif/frameworks/esp-idf-v5.2.5/components/esp_hid E:/Espressif/frameworks/esp-idf-v5.2.5/components/esp_http_client E:/Espressif/frameworks/esp-idf-v5.2.5/components/esp_http_server E:/Espressif/frameworks/esp-idf-v5.2.5/components/esp_https_ota E:/Espressif/frameworks/esp-idf-v5.2.5/components/esp_https_server E:/Espressif/frameworks/esp-idf-v5.2.5/components/esp_hw_support E:/PCG-PPG-ECG_Code/PPG_sensor/component/esp_idf_lib_helpers E:/Espressif/frameworks/esp-idf-v5.2.5/components/esp_lcd E:/Espressif/frameworks/esp-idf-v5.2.5/components/esp_local_ctrl E:/Espressif/frameworks/esp-idf-v5.2.5/components/esp_mm E:/Espressif/frameworks/esp-idf-v5.2.5/components/esp_netif E:/Espressif/frameworks/esp-idf-v5.2.5/components/esp_netif_stack E:/Espressif/frameworks/esp-idf-v5.2.5/components/esp_partition E:/Espressif/frameworks/esp-idf-v5.2.5/components/esp_phy E:/Espressif/frameworks/esp-idf-v5.2.5/components/esp_pm E:/Espressif/frameworks/esp-idf-v5.2.5/components/esp_psram E:/Espressif/frameworks/esp-idf-v5.2.5/components/esp_ringbuf E:/Espressif/frameworks/esp-idf-v5.2.5/components/esp_rom E:/Espressif/frameworks/esp-idf-v5.2.5/components/esp_system E:/Espressif/frameworks/esp-idf-v5.2.5/components/esp_timer E:/Espressif/frameworks/esp-idf-v5.2.5/components/esp_wifi E:/Espressif/frameworks/esp-idf-v5.2.5/components/espcoredump E:/Espressif/frameworks/esp-idf-v5.2.5/components/esptool_py E:/Espressif/frameworks/esp-idf-v5.2.5/components/fatfs E:/Espressif/frameworks/esp-idf-v5.2.5/components/freertos E:/Espressif/frameworks/esp-idf-v5.2.5/components/hal E:/Espressif/frameworks/esp-idf-v5.2.5/components/heap E:/Espressif/frameworks/esp-idf-v5.2.5/components/http_parser E:/PCG-PPG-ECG_Code/PPG_sensor/component/i2cdev E:/Espressif/frameworks/esp-idf-v5.2.5/components/idf_test E:/Espressif/frameworks/esp-idf-v5.2.5/components/ieee802154 E:/Espressif/frameworks/esp-idf-v5.2.5/components/json E:/Espressif/frameworks/esp-idf-v5.2.5/components/log E:/Espressif/frameworks/esp-idf-v5.2.5/components/lwip E:/PCG-PPG-ECG_Code/PPG_sensor/main E:/Espressif/frameworks/esp-idf-v5.2.5/components/mbedtls E:/Espressif/frameworks/esp-idf-v5.2.5/components/mqtt E:/Espressif/frameworks/esp-idf-v5.2.5/components/newlib E:/Espressif/frameworks/esp-idf-v5.2.5/components/nvs_flash E:/Espressif/frameworks/esp-idf-v5.2.5/components/nvs_sec_provider E:/Espressif/frameworks/esp-idf-v5.2.5/components/openthread E:/Espressif/frameworks/esp-idf-v5.2.5/components/partition_table E:/Espressif/frameworks/esp-idf-v5.2.5/components/perfmon E:/Espressif/frameworks/esp-idf-v5.2.5/components/protobuf-c E:/Espressif/frameworks/esp-idf-v5.2.5/components/protocomm E:/Espressif/frameworks/esp-idf-v5.2.5/components/pthread E:/Espressif/frameworks/esp-idf-v5.2.5/components/sdmmc E:/Espressif/frameworks/esp-idf-v5.2.5/components/soc E:/Espressif/frameworks/esp-idf-v5.2.5/components/spi_flash E:/Espressif/frameworks/esp-idf-v5.2.5/components/spiffs E:/Espressif/frameworks/esp-idf-v5.2.5/components/tcp_transport E:/Espressif/frameworks/esp-idf-v5.2.5/components/ulp E:/Espressif/frameworks/esp-idf-v5.2.5/components/unity E:/Espressif/frameworks/esp-idf-v5.2.5/components/usb E:/Espressif/frameworks/esp-idf-v5.2.5/components/vfs E:/Espressif/frameworks/esp-idf-v5.2.5/components/wear_levelling E:/Espressif/frameworks/esp-idf-v5.2.5/components/wifi_provisioning E:/Espressif/frameworks/esp-idf-v5.2.5/components/wpa_supplicant E:/Espressif/frameworks/esp-idf-v5.2.5/components/xtensa
+-- Configuring done (18.6s)
